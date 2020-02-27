@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+
+    <body>
+        <title id="title">L'Etoile Du Lac Hotel </title>
+</header>
+<main>
+    <h1>Welcome to Hotel L'Etoile du Lac</h1>
+    <p id="description"> Please Tell us about your experience with us</p>
+    <div class="container">
+        <form id="survey-form" method="GET">
+            <div class="labels">
+                <p><label for="name">Name</label></p>
+                <p><input type="text" class="input" name="name" placeholder="Enter your Name" required /></p>
+            </div>
+            <div class="labels">
+                <p><label for="email">Email</p</label> </p> <p><input type="text" class="input" name="email" placeholder="email@email.com" required />
+                </p>
+            </div>
+            <div class="labels">
+                <p><label for="age">Age(optional)</label></p>
+                <p><input type="text" class="input" name="age" placeholder="Age"></p>
+            </div>
+            <div class="labels">
+                <label for="dropdown">-How did you find our Hotel?</label></div>
+            <div class="input-tab">
+                <select id="dropdown" name="site">
+                    <option disabled value selected>Select an option</option>
+                    <option value="web">Website</option>
+                    <option value="recommanded">A Friend</option>
+                    <option value="by Coincidence">By Coincidence</option>
+                    <option value="social-media">Social-Media</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="labels">
+                <label>
+                    -Would you recommend our Hotel to others?</label>
+            </div><br>
+            <div class="input-tab">
+                <input type="radio" name="radio-button" value="love">Definitely
+                <br>
+                <input type="radio" name="radio-button" value="like">Maybe<br>
+                <input type="radio" name="radio-button" value="mah">Not sure<br>
+                <input type="radio" name="radio-button" value="nah">No Way<br>
+            </div><br>
+            <div class="labels">
+                <label for="dropdown">-What Best describes this place?</label></div>
+            <div class="input-tab">
+                <select id="dropdown" name="site">
+                    <option disabled value selected>Select an option</option>
+                    <option value="casual">Casual</option>
+                    <option value="cosy">Cosy</option>
+                    <option value="for kids">Good for kids</option>
+                    <option value="for family">Good for Families</option>
+                    <option value="for couples">Great for Couples</option>
+                </select>
+                <div class="labels">
+                    <label>-What do you love most about Hotel L'Etoile Du Lac? </label></div><br>
+                <input type="checkbox" name="restaurant" value="restaurant">Restaurant<br>
+                <input type="checkbox" name="bedrooms" value="bedrooms">BedRooms<br>
+                <input type="checkbox" name="the view" value="the view">The view<br>
+                <input type="checkbox" name="the food" value="">The food<br>
+                <input type="checkbox" name="the quietness" value="the quietness">The quietness<br>
+                <input type="checkbox" name="the staff" value="the staff">The staff<br>
+                <input type="checkbox" name="coffee" value="coffee">Coffee<br>
+                <input type="checkbox" name="tajin" value="tajin">Tajin<br>
+                <input type="checkbox" name="kouskous" value="kouskous">Kouskous<br>
+                <input type="checkbox" name="others" value="others">Others<br>
+            </div><br>
+            <div class="labels">
+                <label for="comments">-Any comments or suggestions will help us to improve</label>
+            </div>
+            <p><textarea class="input-field" id="comments" rows="4" cols="50" name="comments" placeholder="Your comments..."></textarea></p>
+            <div class="btn">
+                <button id="submit" type="submit">Submit</button>
+        </form>
+</main>
+</body>
+
+</html>
